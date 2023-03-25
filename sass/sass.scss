@@ -3,9 +3,13 @@
 *{
     padding: 0 ;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
+    display: flex;
     font-family: 'Roboto', sans-serif;
 }
 
-/* Mobile First */
+/* 320px , 480 px ( telefono modo horizontal) , 600 px tablets pequeñas , 768 px y 1023 px ipad , 1024 px , 1200 px */
+
+/* 320 px*/ 

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:ital@0;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+/* 320px , 480 px ( telefono modo horizontal) , 600 px tablets pequeñas , 768 px y 1023 px ipad , 1024 px , 1200 px */
+/* 320 px*//*# sourceMappingURL=sass.css.map */
