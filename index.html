@@ -5,133 +5,184 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/sass.css">
     <title>Los Guanacos FC </title>
 </head>
 <body>
 
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-            <img src="./image/guanacos.png" alt="" width="80" height="72" class="d-inline-block align-text-center">
-            LOS GUANACOS FC
-            </a>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid ">
+                <a class="navbar-brand active "  href=""> <img src="./image/guanacos.png" alt="escudo guanacos" width="70" height="62"> </a> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page" href="">CLASIFICACION</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active " href="">JUGADORES</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active " href="">ESTADISTICAS</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active " href="">GALERIA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="grilla-grid">
+
+        <section class="center-index">
+            <div>
+                <h1>LOS GUANACOS FC</h1>
+            </div>
+            <div>
+                <img src="./image/guanacos-foto-index.jpg" alt="Los guanacos festejando que son campeones">
+            </div>
+            <div>
+                <p>Los Guanacos es un equipo de fútbol amateur que ha logrado destacar en su liga local al obtener el campeonato en dos ocasiones: en 2018 y 2021. A pesar de ser un club modesto y sin una gran infraestructura, los Guanacos han demostrado su pasión por el deporte y su compromiso en cada partido. Los jugadores se esfuerzan por dar lo mejor de sí mismos en cada encuentro, apoyados por su fiel afición que los sigue en cada partido. Con sus victorias, Los Guanacos han demostrado que, en el fútbol, no siempre se necesita contar con grandes recursos para alcanzar el éxito.</p>
+            </div>
+        </section>
+
+
+
+
 
     <!-- Tabla de posiciones  -->
 
-    <article class="tabla-posiciones">
-        <table>
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>EQUIPO</th>
-                    <th>J</th>
-                    <th>G</th>
-                    <th>E</th>
-                    <th>P</th>
-                    <th>+/-</th>
-                    <th>PTS</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td> REAL PALO </td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>4</td>
-                    <td> <b>6</b> </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td> FUI A LA PELOTA JUEZ </td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>4</td>
-                    <td> <b>4</b> </td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td> CA QUERUBIN </td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td> <b>4</b> </td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td> AZUCAR AMARGO </td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>8</td>
-                    <td> <b>3</b> </td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td> <b>LOS GUANACOS</b> </td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td> <b>3</b> </td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td> GAMBAROLA FC </td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>-2</td>
-                    <td> <b>3</b> </td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td> CATENACCIO </td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>-3</td>
-                    <td> <b>0</b> </td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td> RESCATE FC </td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>-5</td>
-                    <td> <b>0</b> </td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td> BORBOTONES FC </td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>-11</td>
-                    <td> <b>0</b> </td>
-                </tr>
-            </tbody>
-        </table>
-    </article>
+        <article class="tabla-posiciones">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>EQUIPO</th>
+                        <th>J</th>
+                        <th>G</th>
+                        <th>E</th>
+                        <th>P</th>
+                        <th>+/-</th>
+                        <th>PTS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="primeros">
+                        <td>1</td>
+                        <td> REAL PALO </td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td> <b>6</b> </td>
+                    </tr>
+                    <tr class="primeros">
+                        <td>2</td>
+                        <td> FUI A LA PELOTA JUEZ </td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td> <b>4</b> </td>
+                    </tr>
+                    <tr class="primeros">
+                        <td>3</td>
+                        <td> CA QUERUBIN </td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td> <b>4</b> </td>
+                    </tr>
+                    <tr class="primeros">
+                        <td>4</td>
+                        <td> AZUCAR AMARGO </td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>8</td>
+                        <td> <b>3</b> </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td> <b>LOS GUANACOS</b> </td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td> <b>3</b> </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td> GAMBAROLA FC </td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>-2</td>
+                        <td> <b>3</b> </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td> CATENACCIO </td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>-3</td>
+                        <td> <b>0</b> </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td> RESCATE FC </td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>-5</td>
+                        <td> <b>0</b> </td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td> BORBOTONES FC </td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>-11</td>
+                        <td> <b>0</b> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
 
     <!-- Fin tabla de pocisiones -->
 
+        <footer>
+            <div class="footer">
+                <section class="fondofooter">
+                    <img src="./image/guanacos.png" alt="logo guanacos" width="105" height="72" >
+                </section>
+                <section class="redesfooter">
+                    <a href=" https://www.instagram.com/losguanacosok/ "> <img src="./image/icons-instagram.svg" alt="Instagram de los guanacos"></a>
+                    <a href="https://www.facebook.com/torneosindiana?locale=es_LA"><img src="./image/icon-facebook.svg" alt="Facebook del torneo"></a>
+                </section>
+            </div>
+
+        </footer>
+
+    </div>
 
 
 
