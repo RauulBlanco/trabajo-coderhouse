@@ -26,8 +26,12 @@ header{
     font-size: 1.3rem;
     font-weight: bolder;
     border: 2px solid black;
-    width: 320px;
+    padding: 0;
+    grid-area: header;
+}
 
+.blanco{
+    background-color: white;
 }
 
 .nav-link{
@@ -41,27 +45,42 @@ header{
     justify-content: center;
 }
 
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
 p {
+    
+    width: 75%;
     text-align: left;
     line-height: 30px;
-    padding: 20px 5px 20px 5px;
+    padding: 20px 0px 20px 0px;
 }
 
 h1{
     padding: 15px 0px 5px 15px;
     font-weight: bolder;
+    
 }
 
 /* tabla posiciones */
 
-.tabla-posiciones{
-    border: 2px solid black;
+
+
+.tablapos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 table{
+    border: 2px solid black;
     font-size: 16px;
     table-layout: fixed;
     border-collapse: collapse;
+    margin-bottom: 15px;
+
 }
 
 thead{
@@ -86,8 +105,11 @@ td{
 
 /* footer */
 
+footer{
+    grid-area: footer;
+}
 
-.footer{
+.foooter{
     background-color:rgba(255, 192, 203, 0.836);
 }
 
@@ -102,4 +124,31 @@ td{
 
 .fondofooter{
     background-color: rgba(0, 0, 0, 0.973);
+}
+
+@media (min-width:500px){
+
+    .center-index div img{
+        height: 300px;
+    }
+
+    h1{
+        font-size: 45px;
+        padding: 30px 0px;
+    }
+
+    p {
+    
+        width: 75%;
+        text-align: left;
+        line-height: 30px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    td{
+        padding: 16px;
+    }
+
+
+
 }
