@@ -43,7 +43,8 @@ header {
 
 .centrado {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 p {
@@ -71,6 +72,7 @@ table {
   table-layout: fixed;
   border-collapse: collapse;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 thead {
@@ -110,6 +112,10 @@ footer {
   padding: 5px;
 }
 
+footer .foooter .fondofooter h2 {
+  color: white;
+}
+
 .fondofooter {
   background-color: rgba(0, 0, 0, 0.973);
 }
@@ -130,5 +136,21 @@ footer {
   }
   td {
     padding: 16px;
+  }
+  footer {
+    width: 100%;
+  }
+  .foooter {
+    height: 200px;
+  }
+}
+@media (min-width: 750px) {
+  .center-index div img {
+    height: 500px;
+  }
+}
+@media (min-width: 992px) {
+  .center-index div img {
+    height: 600px;
   }
 }/*# sourceMappingURL=sass.css.map */
