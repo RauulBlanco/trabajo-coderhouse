@@ -23,7 +23,6 @@ header {
   font-weight: bolder;
   border: 2px solid black;
   padding: 0;
-  grid-area: header;
 }
 
 .blanco {
@@ -32,6 +31,15 @@ header {
 
 .nav-link {
   border: 2px solid black;
+}
+
+header nav div img {
+  width: 4em;
+  height: 3.5em;
+}
+
+.center-index div {
+  padding-bottom: 1em;
 }
 
 .center-index div img {
@@ -45,6 +53,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 p {
@@ -95,10 +104,6 @@ td {
 }
 
 /* footer */
-footer {
-  grid-area: footer;
-}
-
 .foooter {
   background-color: rgba(255, 192, 203, 0.836);
 }
@@ -112,21 +117,34 @@ footer {
   padding: 5px;
 }
 
+.fondofooter {
+  background-color: rgba(0, 0, 0, 0.973);
+  height: 100%;
+  padding-top: 30px;
+}
+
 footer .foooter .fondofooter h2 {
   color: white;
 }
 
-.fondofooter {
-  background-color: rgba(0, 0, 0, 0.973);
+.redesfooter {
+  background-color: rgba(255, 192, 203, 0.705);
 }
 
 @media (min-width: 500px) {
+  header nav div img {
+    width: 6em;
+    height: 5em;
+  }
+  .center-index div {
+    padding-bottom: 2em;
+  }
   .center-index div img {
     height: 300px;
   }
   h1 {
     font-size: 45px;
-    padding: 30px 0px;
+    padding: 1em 0em 0.5em 0em;
   }
   p {
     width: 75%;
@@ -145,12 +163,57 @@ footer .foooter .fondofooter h2 {
   }
 }
 @media (min-width: 750px) {
+  header nav div img {
+    width: 9em;
+    height: 8em;
+  }
   .center-index div img {
     height: 500px;
   }
+  h1 {
+    font-size: 60px;
+    padding: 40px 0px;
+  }
+  p {
+    width: 70%;
+    text-align: left;
+    line-height: 30px;
+    padding: 20px 0px 20px 0px;
+  }
 }
 @media (min-width: 992px) {
+  header {
+    width: 100%;
+    background-color: rgba(255, 192, 203, 0.705);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border: 2px solid black;
+    padding: 0px 100px;
+  }
+  header nav div img {
+    width: 9em;
+    height: 8em;
+    padding-right: 1em;
+  }
+  .center-index div {
+    padding-bottom: 2em;
+  }
   .center-index div img {
     height: 600px;
+  }
+  h1 {
+    font-size: 70px;
+    padding: 1em 0em 0.5em 0em;
+  }
+  p {
+    width: 70%;
+    text-align: left;
+    line-height: 35px;
+    padding: 20px 0px 20px 0px;
+    font-size: 1.2rem;
+  }
+  footer div section img {
+    width: 120px;
+    height: 90px;
   }
 }/*# sourceMappingURL=sass.css.map */
