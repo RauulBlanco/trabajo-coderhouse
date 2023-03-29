@@ -4,36 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/sass.css">
+    <title>Jugadores</title>
 </head>
 <body>
-    <table>
-        <tr>
-          <th>Nombre</th>
-          <th>Posición</th>
-          <th>Foto</th>
-          <th>Descripción</th>
-        </tr>
-        <tr>
-            <td>Santiago Carpinela</td>
-            <td>Defensa central</td>
-            <td><img src="../image/guanacos-foto-index2.jpg" alt="Foto de Santiago Carpinela"></td>
-            <td>Capitán del equipo, líder de la defensa y jugador muy comprometido con el equipo.</td>
-        </tr>
-        <tr>
-            <td>Matías Vega</td>
-            <td>Centrocampista</td>
-            <td><img src="../image/guanacos-foto-index.jpg" alt="Foto de Matías Vega"></td>
-            <td>Creador de juego, excelente técnica y visión de campo.</td>
-        </tr>
-        <tr>
-            <td>Francisco Calcagno</td>
-            <td>Delantero</td>
-            <td><img src="../image/guanacos-foto-index2.jpg" alt="Foto de Francisco Calcagno"></td>
-            <td>Máximo goleador histórico del equipo, gran habilidad para el remate y un jugador muy querido por la afición.</td>
-        </tr>
-        <!-- Aquí puedes añadir más filas con el resto de los jugadores del equipo -->
-        </table>
-         
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid ">
+                <a class="navbar-brand active img-navbar"  href="../index.html"> <img src="../image/guanacos.png" alt="escudo guanacos" > </a> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item blanco ">
+                            <a class="nav-link active " aria-current="page" href="./clasificacion.html">CLASIFICACION</a>
+                        </li>
+                        <li class="nav-item blanco">
+                            <a class="nav-link active " href="./jugadores.html">JUGADORES</a>
+                        </li>
+                        <li class="nav-item blanco">
+                            <a class="nav-link active " href="./estadisticas.html">ESTADISTICAS</a>
+                        </li>
+                        <li class="nav-item blanco">
+                            <a class="nav-link active " href="./galeria.html">GALERIA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        <footer>
+            <div class="foooter">
+                <section class="fondofooter">
+                    <img class="logofooter-gua" src="../image/guanacos.png" alt="logo guanacos" width="105" height="72" >
+                    <h2>LOS GUANACOS</h2>
+                </section>
+                <section class="redesfooter">
+                    <a target="_blank" href=" https://www.instagram.com/losguanacosok/ "> <img src="../image/icons-instagram.svg" alt="Instagram de los guanacos"></a>
+                    <a target="_blank" href="https://www.facebook.com/torneosindiana?locale=es_LA"><img src="../image/icon-facebook.svg" alt="Facebook del torneo"></a>
+                </section>
+            </div>
+        </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
 </body>
 </html>

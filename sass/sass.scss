@@ -21,6 +21,7 @@ body{
 /* 0 a 320 px*/ 
 
 header{
+    height: 20%;
     width: 100%;
     background-color: rgba(255, 192, 203, 0.705);
     font-size: 1.3rem;
@@ -115,6 +116,9 @@ td{
 
 /* footer */
 
+footer{
+    width: 100%;
+}
 
 .foooter{
     background-color:rgba(255, 192, 203, 0.836);
@@ -142,6 +146,7 @@ footer .foooter .fondofooter h2{
 
 .redesfooter{
     background-color: rgba(255, 192, 203, 0.705);
+    height: 3,3em;
 }
 
 @media (min-width:500px){
