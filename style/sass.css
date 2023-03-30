@@ -30,6 +30,10 @@ header {
   background-color: white;
 }
 
+.collapse {
+  justify-content: center;
+}
+
 .nav-link {
   border: 2px solid black;
 }
@@ -137,6 +141,10 @@ footer .foooter .fondofooter h2 {
   height: 3, 3em;
 }
 
+.hola {
+  height: 100%;
+}
+
 @media (min-width: 500px) {
   header nav div img {
     width: 6em;
@@ -191,10 +199,9 @@ footer .foooter .fondofooter h2 {
   header {
     width: 100%;
     background-color: rgba(255, 192, 203, 0.705);
-    font-size: 1.5rem;
+    font-size: 29px;
     font-weight: bolder;
     border: 2px solid black;
-    padding: 0px 100px;
   }
   header nav div img {
     width: 9em;
