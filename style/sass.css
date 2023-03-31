@@ -145,6 +145,35 @@ footer .foooter .fondofooter h2 {
   height: 100%;
 }
 
+/* HTML JUGADORES */
+.tablainfo {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card {
+  background-color: rgba(255, 192, 203, 0.836);
+  padding-top: 7px;
+  border: 2px solid black;
+}
+
+.tablainfo .card .card-body {
+  background-color: white;
+  justify-content: center;
+}
+
+.tablainfo .card .card-body .card-text {
+  text-align: left;
+  width: 100%;
+}
+
+.tablainfo .card img {
+  padding-bottom: 7px;
+}
+
+/* HTML JUGADORES*/
 @media (min-width: 500px) {
   header nav div img {
     width: 6em;
@@ -175,6 +204,25 @@ footer .foooter .fondofooter h2 {
   .foooter {
     height: 200px;
   }
+  /* HTML JUGADORES */
+  .tablainfo {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .card {
+    background-color: rgba(255, 192, 203, 0.836);
+    margin: 2rem;
+    border: 2px solid rgb(43, 41, 41);
+  }
+  .tablainfo .card .card-body {
+    background-color: white;
+  }
+  .tablainfo .card img {
+    padding-bottom: 7px;
+  }
+  /* HTML JUGADORES*/
 }
 @media (min-width: 750px) {
   header nav div img {
@@ -195,6 +243,21 @@ footer .foooter .fondofooter h2 {
     padding: 20px 0px 20px 0px;
   }
 }
+/* HTML JUGADORES */
+.tablainfo {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card {
+  background-color: rgba(255, 192, 203, 0.836);
+  margin: 2rem;
+  border: 2px solid black;
+}
+
+/* HTML JUGADORES*/
 @media (min-width: 992px) {
   header {
     width: 100%;
@@ -229,4 +292,17 @@ footer .foooter .fondofooter h2 {
     width: 120px;
     height: 90px;
   }
+  /* HTML JUGADORES */
+  .tablainfo {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .card {
+    background-color: rgba(255, 192, 203, 0.836);
+    margin: 2rem;
+    border: 2px solid black;
+  }
+  /* HTML JUGADORES*/
 }/*# sourceMappingURL=sass.css.map */
