@@ -170,7 +170,13 @@ footer .foooter .fondofooter h2 {
 }
 
 .tablainfo .card img {
-  padding-bottom: 7px;
+  padding-bottom: 10px;
+}
+
+.h1-jugadores {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /* HTML JUGADORES*/
@@ -220,7 +226,7 @@ footer .foooter .fondofooter h2 {
     background-color: white;
   }
   .tablainfo .card img {
-    padding-bottom: 7px;
+    padding-bottom: 10px;
   }
   /* HTML JUGADORES*/
 }
