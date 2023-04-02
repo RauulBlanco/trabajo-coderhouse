@@ -195,6 +195,21 @@ footer .foooter .fondofooter h2{
 
 /* HTML JUGADORES*/
 
+/* HTML clasificaciones*/
+
+.h1-clasificacion{
+    width: 100%;
+}
+
+.centrado-clasificion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HTML clasificaciones*/
+
 
 @media (min-width:500px){
 
@@ -365,5 +380,12 @@ footer .foooter .fondofooter h2{
 
 
 /* HTML JUGADORES*/
+
+@media (min-width:1025px) {
+    .centrado-clasificion{
+        flex-direction: row;
+        justify-content: space-around;
+        }
+    }
 
 }

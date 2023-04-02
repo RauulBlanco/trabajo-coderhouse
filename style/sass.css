@@ -180,6 +180,19 @@ footer .foooter .fondofooter h2 {
 }
 
 /* HTML JUGADORES*/
+/* HTML clasificaciones*/
+.h1-clasificacion {
+  width: 100%;
+}
+
+.centrado-clasificion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HTML clasificaciones*/
 @media (min-width: 500px) {
   header nav div img {
     width: 6em;
@@ -311,4 +324,10 @@ footer .foooter .fondofooter h2 {
     border: 2px solid black;
   }
   /* HTML JUGADORES*/
+}
+@media (min-width: 992px) and (min-width: 1025px) {
+  .centrado-clasificion {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=sass.css.map */
