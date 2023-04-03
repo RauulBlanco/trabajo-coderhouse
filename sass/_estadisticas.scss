@@ -1,0 +1,33 @@
+.h1-jugadores{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tablainfo{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    .card{
+        background-color:rgba(255, 192, 203, 0.836);
+        padding-top: 7px;
+        border: 2px solid black;
+        margin: 2rem;
+
+        img{
+            padding-bottom: 10px;
+        }
+
+        .card-body{
+            background-color: white;
+            justify-content: center;
+
+            .card-text{
+                text-align: left;
+                width: 100%;
+            }
+        }
+    }
+}

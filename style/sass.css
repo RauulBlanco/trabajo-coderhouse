@@ -108,70 +108,26 @@ header nav div img {
   border-bottom: 1px solid rgb(113, 114, 108);
 }
 
-/* tabla posiciones */
-/* footer */
 footer {
   width: 100%;
 }
-
-.foooter {
+footer .foooter {
   background-color: rgba(255, 192, 203, 0.836);
 }
-
-.footer section a {
-  justify-content: center;
-}
-
-.footer section img {
-  margin-top: 0px;
-  padding: 5px;
-}
-
-.fondofooter {
+footer .foooter .fondofooter {
   background-color: rgba(0, 0, 0, 0.973);
   height: 100%;
   padding-top: 30px;
 }
-
 footer .foooter .fondofooter h2 {
   color: white;
 }
-
-.redesfooter {
+footer .foooter .redesfooter {
   background-color: rgba(255, 192, 203, 0.705);
   height: 3, 3em;
 }
-
-.hola {
-  height: 100%;
-}
-
-/* HTML JUGADORES */
-.tablainfo {
-  display: flex;
+footer .foooter .redesfooter a {
   justify-content: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.card {
-  background-color: rgba(255, 192, 203, 0.836);
-  padding-top: 7px;
-  border: 2px solid black;
-}
-
-.tablainfo .card .card-body {
-  background-color: white;
-  justify-content: center;
-}
-
-.tablainfo .card .card-body .card-text {
-  text-align: left;
-  width: 100%;
-}
-
-.tablainfo .card img {
-  padding-bottom: 10px;
 }
 
 .h1-jugadores {
@@ -180,9 +136,30 @@ footer .foooter .fondofooter h2 {
   justify-content: center;
 }
 
-/* HTML JUGADORES*/
-/* HTML clasificaciones*/
-/* HTML clasificaciones*/
+.tablainfo {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.tablainfo .card {
+  background-color: rgba(255, 192, 203, 0.836);
+  padding-top: 7px;
+  border: 2px solid black;
+  margin: 2rem;
+}
+.tablainfo .card img {
+  padding-bottom: 10px;
+}
+.tablainfo .card .card-body {
+  background-color: white;
+  justify-content: center;
+}
+.tablainfo .card .card-body .card-text {
+  text-align: left;
+  width: 100%;
+}
+
 @media (min-width: 311px) {
   .center-index div img {
     width: auto;
@@ -260,21 +237,6 @@ footer .foooter .fondofooter h2 {
     padding: 20px 0px 20px 0px;
   }
 }
-/* HTML JUGADORES */
-.tablainfo {
-  display: flex;
-  justify-content: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.card {
-  background-color: rgba(255, 192, 203, 0.836);
-  margin: 2rem;
-  border: 2px solid black;
-}
-
-/* HTML JUGADORES*/
 @media (min-width: 992px) {
   header {
     width: 100%;
@@ -321,9 +283,8 @@ footer .foooter .fondofooter h2 {
     margin: 2rem;
     border: 2px solid black;
   }
-  /* HTML JUGADORES*/
 }
-@media (min-width: 992px) and (min-width: 1025px) {
+@media (min-width: 1025px) {
   .centrado-clasificion {
     flex-direction: row;
     justify-content: space-around;
