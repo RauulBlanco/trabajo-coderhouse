@@ -1,0 +1,57 @@
+.h1-clasificacion{
+    width: 100%;
+}
+
+
+.centrado-clasificion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    article{
+
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            table{
+                border: 2px solid black;
+                font-size: 16px;
+                table-layout: fixed;
+                border-collapse: collapse;
+                margin-bottom: 15px;
+                margin-top: 15px;
+
+                thead{
+                    background-color: rgba(0, 0, 0, 0.911);
+                    color: white;
+
+                    tr{
+
+                        th{
+                            padding: 13px 5px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+
+                tbody{
+
+                    .primeros{
+                        background-color: rgba(117, 36, 192, 0.377);
+                    }
+
+                    tr{
+
+                        td{
+                            padding-top: 9px;
+                            border-bottom: 1px solid rgb(113, 114, 108);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

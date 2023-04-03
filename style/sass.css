@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:ital@0;1&display=swap");
 * {
   padding: 0;
@@ -14,8 +13,18 @@ body {
   min-height: 100vh;
 }
 
-/* 320px , 480 px ( telefono modo horizontal) , 600 px tablets pequeñas , 768 px y 1023 px ipad , 1024 px , 1200 px */
-/* 0 a 320 px*/
+p {
+  width: 75%;
+  text-align: left;
+  line-height: 30px;
+  padding: 20px 0px 20px 0px;
+}
+
+h1 {
+  padding: 15px 0px 5px 15px;
+  font-weight: bolder;
+}
+
 header {
   height: 20%;
   width: 100%;
@@ -39,48 +48,43 @@ header {
 }
 
 header nav div img {
-  width: 4em;
-  height: 3.5em;
+  width: 80px;
+  height: 70px;
 }
 
+/* No hice el anidado correctamente para no romper todo por que es el importado de Bootstrap. A futuro no usar mas bootstrap XD*/
 .center-index div {
   padding-bottom: 1em;
 }
-
 .center-index div img {
-  width: auto;
-  height: 205px;
+  width: 100%;
+  height: 150px;
   border: 2px solid black;
   justify-content: center;
 }
-
-.centrado {
+.center-index .centrado {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
 }
 
-p {
-  width: 75%;
-  text-align: left;
-  line-height: 30px;
-  padding: 20px 0px 20px 0px;
+.h1-clasificacion {
+  width: 100%;
 }
 
-h1 {
-  padding: 15px 0px 5px 15px;
-  font-weight: bolder;
+.centrado-clasificion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-/* tabla posiciones */
-.tablapos {
+.centrado-clasificion article div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-table {
+.centrado-clasificion article div table {
   border: 2px solid black;
   font-size: 16px;
   table-layout: fixed;
@@ -88,26 +92,23 @@ table {
   margin-bottom: 15px;
   margin-top: 15px;
 }
-
-thead {
+.centrado-clasificion article div table thead {
   background-color: rgba(0, 0, 0, 0.911);
   color: white;
 }
-
-th {
+.centrado-clasificion article div table thead tr th {
   padding: 13px 5px;
   text-transform: uppercase;
 }
-
-td {
-  padding: 7px;
+.centrado-clasificion article div table tbody .primeros {
+  background-color: rgba(117, 36, 192, 0.377);
+}
+.centrado-clasificion article div table tbody tr td {
+  padding-top: 9px;
   border-bottom: 1px solid rgb(113, 114, 108);
 }
 
-.primeros {
-  background-color: rgba(117, 36, 192, 0.377);
-}
-
+/* tabla posiciones */
 /* footer */
 footer {
   width: 100%;
@@ -181,18 +182,15 @@ footer .foooter .fondofooter h2 {
 
 /* HTML JUGADORES*/
 /* HTML clasificaciones*/
-.h1-clasificacion {
-  width: 100%;
-}
-
-.centrado-clasificion {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 /* HTML clasificaciones*/
+@media (min-width: 311px) {
+  .center-index div img {
+    width: auto;
+    height: 205px;
+    border: 2px solid black;
+    justify-content: center;
+  }
+}
 @media (min-width: 500px) {
   header nav div img {
     width: 6em;
