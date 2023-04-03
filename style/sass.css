@@ -184,6 +184,23 @@ footer .foooter .redesfooter a {
     border: 2px solid black;
     justify-content: center;
   }
+  /*  galeria Html*/
+  .galeria {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .galeria .fotos {
+    align-content: space-around;
+  }
+  .galeria .fotos img {
+    width: 100%;
+    height: 50%;
+    padding: 25px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px rbga(0, 0, 0, 0.3);
+  }
 }
 @media (min-width: 500px) {
   header nav div img {
@@ -233,7 +250,6 @@ footer .foooter .redesfooter a {
   .tablainfo .card img {
     padding-bottom: 10px;
   }
-  /* HTML JUGADORES*/
 }
 @media (min-width: 750px) {
   header nav div img {
@@ -252,6 +268,23 @@ footer .foooter .redesfooter a {
     text-align: left;
     line-height: 30px;
     padding: 20px 0px 20px 0px;
+  }
+  /*  galeria Html*/
+  .galeria {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .galeria .fotos {
+    justify-content: space-around;
+  }
+  .galeria .fotos img {
+    width: 26rem;
+    height: 22rem;
+    padding: 35px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px rbga(0, 0, 0, 0.3);
   }
 }
 @media (min-width: 992px) {
@@ -305,5 +338,22 @@ footer .foooter .redesfooter a {
   .centrado-clasificion {
     flex-direction: row;
     justify-content: space-around;
+  }
+  /*  galeria Html*/
+  .galeria {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .galeria .fotos {
+    align-content: space-between;
+  }
+  .galeria .fotos img {
+    width: 28rem;
+    height: 22rem;
+    padding: 25px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px rbga(0, 0, 0, 0.3);
   }
 }/*# sourceMappingURL=sass.css.map */
