@@ -177,6 +177,45 @@ footer .foooter .redesfooter a {
   box-shadow: 0px 0px 5px rbga(0, 0, 0, 0.3);
 }
 
+.contacto-formulario {
+  height: 100%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #01070a;
+  border-radius: 5px;
+}
+.contacto-formulario .form-grupo {
+  margin-bottom: 20px;
+}
+.contacto-formulario .form-grupo label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.contacto-formulario .form-grupo input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.contacto-formulario .form-grupo textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.contacto-formulario h2 {
+  color: #01070a;
+}
+.contacto-formulario button[type=submit]:hover {
+  background-color: black;
+}
+
 @media (min-width: 311px) {
   .center-index div img {
     width: auto;
